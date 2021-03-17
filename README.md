@@ -11,4 +11,5 @@ to the key favoriteNumber
 Exercise 4:What actually happens and why? 
   The console log in lab.js was logged onces, But I got the same object logged everytime
 i console logged in marcy.js. This was because every call to require lab.js were all returning the same object and the lab.js file was read onces.
-    
+Exercise 5: What is the client and what is the server in this exercise?
+  The client is my browser requesting the Html page from the server I created. The server sends the page as a Strings.
