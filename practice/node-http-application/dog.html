@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to dog land</h1>
+    <h2>Dog Name: {{name}}</h2>
+    <h3 id="dog">Dog-Lover Counter: 0</h3>
+    <p>Click for dog love</p>
+    <style>
+        body {
+            background-color: aqua;
+        }
+    </style>
+    <script>
+        let body = document.querySelector('body')
+        let count = 0
+        let dog = document.getElementById('dog')
+        body.addEventListener('click', () => {
+              count++
+              dog.innerText = `Dog-Lover Counter: ${count}`
+        } )
+    </script>
+</body>
+</html>
